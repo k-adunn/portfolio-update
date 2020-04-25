@@ -1,0 +1,167 @@
+body {
+	background-image: url(../../assets/images/webb-dark.png);
+	font-family: 'Monda', sans-serif;
+	font-size: 16px;
+    margin-bottom: 150px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/* main */
+
+#logo {
+	height: 60px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+    margin-left: 70px;
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+
+    background-color: #545359;
+}
+
+.navbar {
+    margin-bottom: 45px;
+}
+
+.navbar-right {
+	padding-top: 10px;
+  	padding-right: 30px;
+  	font-family: Arial;
+  	font-weight: lighter;
+}
+
+.page-header > h1 {
+	margin-bottom: 33px;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #545359;
+}
+
+#bio-image {
+	float: left;
+    width: 170px;
+    height: 175px;
+	margin-top: 5px;
+	margin-right: 20px; 
+}
+
+.icon-image {
+	width: 55px;
+	height: 55px;
+}
+
+
+#port-image {
+    width: 175px;
+    height: 165px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.panel.panel-default {
+	width: 100%;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.panel-body > p {
+	padding-right: 20px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #545359;
+	text-align: justify;
+}
+
+.panel-body {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.label-name,
+.label-msg,
+.label-email {
+	font-size: 17px;
+	color: #545359;
+	float: left;
+}
+
+.btn-default {
+  float: left;
+}
+
+#msg {
+	height: 200px;
+	border-color: #bbc;
+}
+
+#box-image {    
+	width: 200px;
+    height: 115px;
+}
+
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+
+  /* Visual */
+  background-color: #666;
+}
+
+.bottom-footer {
+  height: 6px;
+  padding-top: 3px;
+  background-color: #4aaaa5;  
+}
+
+.text-footer {
+
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #545359;
+  }
+
+  #logo {
+    width: 100%;
+
+    /* Box-model */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    /* Positioning */
+    margin-left: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+    /* Visual */
+    background: #545359;
+  }
+}
